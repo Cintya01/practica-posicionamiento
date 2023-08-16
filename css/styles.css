@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1024px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-descuentos{
+    width: 100%;
+    height: 38px;
+    background: #1CD1B0;
+    padding: 10px 0px 10px 20px;
+    font-size: 15px;
+}
+
+.banner-titulo{
+    height: 101px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+    padding: 28px;
+    font-size: 40px;
+}
+
+.grid{
+    margin: 154px 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.container{
+    position: relative;
+    box-sizing: border-box;
+    width: 300px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+i{
+    position: absolute;
+    top: 21px;
+    left: 21px;
+}
+
+.imagen-background{
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0 0;
+}
+
+h2{
+    margin-top: 60px;
+    text-align: center;
+}
+.perfil{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;    
+}
+
+div p{
+    padding: 20px;
+}
+.estilo-boton{
+    position: absolute;
+    left:85px;
+    margin-top: 17px;
+    width: 130px;
+    height: 50px;
+    background-color: #00669F;
+    color: white;  
+
+}
+.footer-estilo{
+    height: 51px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    padding: 16px;
+    color: white;   
+}
